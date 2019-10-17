@@ -1,0 +1,15 @@
+{
+  "name": "rtcsignaling-server",
+  "version": "1.0.0",
+  "description": "signaling server for WebRTC",
+  "main": "signaling_server.js",
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MoonSooKim",
+  "license": "ISC"
+}
