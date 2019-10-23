@@ -3,10 +3,6 @@ var server = require('http').createServer().listen(7000, '0.0.0.0');
 var io = socketIO.listen(server);//클라이언트 소켓에서 접속 시도를 리슨하여 클라이언트와 연결
 var connectCount = 0;//현재 접속자 수
 console.log("port: 7000 listening");
-// Super simple server:
-//  * One room only.
-//  * We expect two people max.
-//  * No error handling.
 
 
 
